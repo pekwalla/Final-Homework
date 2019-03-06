@@ -3,27 +3,28 @@ body {
   padding: 0;
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
-  background: url("/assets/images/dynamic-style.png");
+  background: url("dynamic-style.png");
   font-size: 18px;
   line-height: 150%;
   width: 960px;
   
 }
 header {
-    background: #ffffff;
     height: 80px;
-    width: 960px;
+    background: #ffffff;
+    margin-left:40px;
+    margin-right:80px;
     border-bottom-color: #c73232
     
 }
  
  
   h1 {
-    width: 350px;
-    height:30% ;
+    
     background-color: #4aaaa5;
     text-align: center;
     margin-left:40px;
+   
 
 
     display: inline;
@@ -52,14 +53,19 @@ margin: auto auto;
  img {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     float: left;
+ 
     
       
     }
 p {
+     
     color: #777777;
     background-color: rgb(250, 246, 246);
-    display: inline;  
-    margin-left: 20px;
+    display: inline;
+    margin-left: 40px;
+    
+    
+    
      
 }
 footer {
