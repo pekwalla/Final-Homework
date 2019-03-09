@@ -1,12 +1,14 @@
  
 body {
+  width: 960px;
+
   padding: 0;
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
   background: url("dynamic-style.png");
   font-size: 18px;
   line-height: 150%;
-  width: 960px;
+  
   
 }
 header {
@@ -44,7 +46,7 @@ header {
    
 .container {
 width: 495px;
-background: rgb(250, 246, 246);
+background: ffffff;
 text-align: center;
 margin: auto auto;
   }
@@ -60,7 +62,7 @@ margin: auto auto;
 p {
      
     color: #777777;
-    background-color: rgb(250, 246, 246);
+    background-color: ffffff;
     display: inline;
     margin-left: 40px;
     
@@ -68,10 +70,17 @@ p {
     
      
 }
+/* sticky footer   left: 0;
+*/
 footer {
+    position: fixed;
+    text-align: center;
+    width: 860px;
     background-color: #666666;
     margin-left:40px;
-    margin-right:80px;
+ 
+    bottom: 0;
+   
    
 }
  
